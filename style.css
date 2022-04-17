@@ -1,0 +1,63 @@
+html {
+    box-sizing: border-box;
+  }
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
+
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+.container {
+    width: 800px;
+    margin: 0 auto;
+}
+
+/* utilidades */
+.bold {
+    font-weight: bold;
+}
+
+/* Cabecera */
+
+.cabecera {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0;
+    align-items: center;
+}
+
+.cabecera-izq {
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    margin: 0 15px;
+    width: 25x;
+}
+.fa-brands .fa-html5 {
+    max-width: 100%;
+}
+.texto-cabecera p{
+    margin: 0;
+}
+
+/* Imagen */
+.imagen{
+    width: 800px;
+}
+
+img{
+    max-width: 100%;
+}
+
+/* Iconos */
+
+.iconos {
+    display: flex;
+    justify-content: space-between;
+    margin: 15px 15px 30px 15px;
+
+}
